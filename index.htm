@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>  
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css" >
+    <title>Checkout Form</title>  
+</head> 
+<body>   
+    <form>
+    <div id="form">
+        <div id="formHeader">
+            <h3>Checkout Form</h3>
+        </div>
+        <div id="formInfo">
+            <div class="input-group">
+                <span class="input-group-append">
+                    <div class="input-group-text bg-transparent"><i class="fa fa-user"></i></div>
+                </span>
+                <input class="form-control py-2 border-left-0 border" type="text" value="First name" >
+            </div>
+            <div class="input-group">
+                <span class="input-group-append">
+                    <div class="input-group-text bg-transparent"><i class="fa fa-user"></i></div>
+                </span>
+                <input class="form-control py-2 border-left-0 border" type="text" value="Last name" >
+            </div>
+
+            <div class="input-group">
+                <span class="input-group-append">
+                    <div class="input-group-text bg-transparent"><i class="fa fa-envelope"></i></div>
+                </span>
+                <input class="form-control py-2 border-left-0 border" type="text" value="E-mail" >
+            </div>
+            <div class="input-group">
+                <span class="input-group-append">
+                    <div class="input-group-text bg-transparent"><i class="fa fa-phone"></i></div>
+                </span>
+                <input class="form-control py-2 border-left-0 border" type="text" value="Phone" >
+            </div>
+
+        </div>
+        <div id="formAdress">
+            <div class="input-group" id="country">
+                <select class="form-control" >
+                  <option>Country</option>
+                  <option>Ukraine</option>
+                  <option>USA</option>
+                  <option>Spain</option>
+                  <option>Poland</option>
+                </select>
+              </div>
+            <div class="input-group" id="city">
+                <input class="form-control py-2 border-left-0 border" type="text" value="City" >
+            </div>
+            <div class="input-group" id="postCode">
+                <input class="form-control py-2 border-left-0 border" type="text" value="Post code" >
+            </div>
+            <div class="input-group" id="adress">
+                <input class="form-control py-2 border-left-0 border" type="text" value="Adress" >
+            </div>
+            <div class="input-group" id="additionalInfo">
+                <textarea  class="form-control py-2 border-left-0 border" type="text" rows="2" >Additional info</textarea>
+            </div>
+        </div>
+        <div id="formPayment">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Visa</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">MasterCard</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                <label class="form-check-label" for="inlineRadio3">PayPal</label>
+              </div>
+              <div class="input-group" id="nameCard">
+                <input class="form-control py-2 border-left-0 border" type="text" value="Name on card" >
+            </div>
+            <div class="input-group" id="cardNum">
+                <input class="form-control py-2 border-left-0 border" type="text" value="Card numberd" >
+            </div>
+            <div class="input-group" id="cvv2">
+                <input class="form-control py-2 border-left-0 border" type="text" value="CVV2" >
+            </div>
+
+            <div class="input-group" id="expDate">
+                <label>Expiration date</label>
+              </div>
+            <div class="input-group" id="city">
+                <select class="form-control" >
+                    <option>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                  </select>
+            </div>
+            <div class="input-group" id="postCode">
+                <input class="form-control py-2 border-left-0 border" type="text" value="Year" >
+            </div>
+
+        </div>
+        <div id="formfutter">
+            <input type="button" value="Continue" >
+        </div>
+    </div>
+    </form>
+</body> 
+</html>
